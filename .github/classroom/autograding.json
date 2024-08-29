@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test successfully builds",
+      "setup": "make clean",
+      "run": "make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test volumeOfFootball",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task1] | grep . && ./test [task1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test determineQuadraticRoots",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task2] | grep . && ./test [task2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "test performOperation",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task3] | grep . && ./test [task3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
