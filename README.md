@@ -71,11 +71,11 @@ following setup steps.
 For the first task, you will be finishing the implementation of some code
 to calculate the volume of a football (technically known as an 
 oblate-spheroid).  The volume of a football can be calculated using the following
-formula \href{https://www.answers.com/Q/What_is_a_volume_of_a_football}{What is the volume of a football}:
+formula [What is the volume of a football](https://www.answers.com/Q/What_is_a_volume_of_a_football):
 
-\begin{equation}
+$$
 v = \frac{4}{3} \pi a^2 b
-\end{equation}
+$$
 
 Here $a$ represents half of the length of the short axis (in other words the
 radius of the short axis).  Likewise $b$ represents the radius of the long
